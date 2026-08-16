@@ -2,6 +2,9 @@
 
 **Understand any codebase from your terminal — fully offline.**
 
+🌱 Open source and open to contributions — issues and PRs welcome.
+
+
 `codescope` scans a local project, parses its functions and classes with `tree-sitter`, embeds them, and stores everything in a local vector database. Then you can ask plain-English questions about the code and get grounded, source-cited answers — all powered by local models through Ollama. No API keys, no cloud calls, no source code ever leaves your machine.
 
 ---

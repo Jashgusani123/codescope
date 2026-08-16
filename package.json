@@ -1,0 +1,49 @@
+{
+  "name": "@jashg91/codescope",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "AI-powered local codebase indexing and Q&A CLI — runs fully offline via Ollama, no API keys, no cloud.",
+  "license": "MIT",
+  "author": "Jash Gusani <jashgus0@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jashgusani123/codescope.git"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "codebase",
+    "rag",
+    "ollama",
+    "local-first",
+    "tree-sitter",
+    "code-search"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "codescope": "bin/cli.js"
+  },
+  "scripts": {
+    "init": "node bin/cli.js init",
+    "ask": "node bin/cli.js ask"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.13.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ignore": "^5.3.1",
+    "ollama": "^0.5.9",
+    "ora": "^8.1.0",
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-javascript": "^0.23.0",
+    "tree-sitter-typescript": "^0.23.0"
+  }
+}
